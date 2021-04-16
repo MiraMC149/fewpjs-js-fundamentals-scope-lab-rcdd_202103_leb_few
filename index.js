@@ -1,8 +1,7 @@
-animal = ""
+let animal = "";
 
 function myAnimal() {
   return animal
-
 
 function yourAnimal() {
   // How can we make sure that this function
@@ -13,8 +12,9 @@ function yourAnimal() {
 }
 
 function add2(n) {
-  return n + two
+  let two = 2;
+  return n + two;
 
   // Feel free to move things around!
-  two = 2
+
 }
